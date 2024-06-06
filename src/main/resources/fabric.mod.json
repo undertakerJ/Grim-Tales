@@ -8,14 +8,17 @@
 		"undertaker_j, DaNcIKKK"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://t.me/memedealer_jPRIME",
+		"sources": "https://github.com/undertakerJ/Grimm-Tales"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.grimmtales.GrimmTales"
+		],
+			"client": [
+			"com.grimmtales.GrimmTalesClient"
 		],
 		"fabric-datagen": [
 			"com.grimmtales.GrimmTalesDataGenerator"
