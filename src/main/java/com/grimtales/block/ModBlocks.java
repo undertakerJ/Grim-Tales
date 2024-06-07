@@ -13,15 +13,21 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CEBBITE_BLOCK = registerBlock("cebbite_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-    private static Block registerBlock(String name, Block block){
+    public static final Block CEBBITE_ORE = registerBlock("cebbite_ore", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
+    public static final Block DEEPSLATE_CEBBITE_ORE = registerBlock("deepslate_cebbite_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block SCULK_CEBBITE_ORE = registerBlock("sculk_cebbite_ore", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
+    private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(GrimTales.MOD_ID, name), block);
     }
-    private static Item registerBlockItem(String name, Block block){
+
+    private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(GrimTales.MOD_ID, name),
-        new BlockItem(block, new FabricItemSettings()));
+                new BlockItem(block, new FabricItemSettings()));
     }
-    public static void registerModBlocks(){
+
+    public static void registerModBlocks() {
         GrimTales.LOGGER.info("Registering Mod Blocks for " + GrimTales.MOD_ID);
 
     }

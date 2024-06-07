@@ -1,7 +1,10 @@
 {
-  "item.grimtales.cebbite_ingot": "Кеббитовый Слиток",
-
   "block.grimtales.cebbite_block": "Кеббитовый Блок",
+  "block.grimtales.cebbite_ore": "Кеббитовая Руда",
+  "block.grimtales.deepslate_cebbite_ore": "Кеббитоносный Глубинный Сланец",
+  "block.grimtales.sculk_cebbite_ore": "Скалковая Кеббитовая Руда",
+  "item.grimtales.cebbite_ingot": "Кеббитовый Слиток",
+  "item.grimtales.raw_cebbite_ore": "Необработанная Кеббитовая Руда",
 
   "itemgroup.grimtales_group": "Сказания Тьмы"
 }

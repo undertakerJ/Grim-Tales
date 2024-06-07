@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "grimtales:cebbite_block"
+    }
+  ],
+  "result": {
+    "item": "grimtales:cebbite_ingot",
+    "count": 9
+  }
+}

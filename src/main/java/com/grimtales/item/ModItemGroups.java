@@ -16,12 +16,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.grimtales_group"))
                     .icon(() -> new ItemStack(ModItems.CEBBITE_INGOT)).entries((displayContext, entries) -> {
                         //ITEMS
+                        entries.add(ModItems.RAW_CEBBITE_ORE);
                         entries.add(ModItems.CEBBITE_INGOT);
                         //BLOCKS
                         entries.add(ModBlocks.CEBBITE_BLOCK);
+                        entries.add(ModBlocks.CEBBITE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CEBBITE_ORE);
+                        entries.add(ModBlocks.SCULK_CEBBITE_ORE);
 
                     }).build());
-    public static void registerItemGroups(){
+
+    public static void registerItemGroups() {
         GrimTales.LOGGER.info("Registering Item Groups for " + GrimTales.MOD_ID);
     }
 }
