@@ -1,6 +1,6 @@
-package com.grimmtales.item;
+package com.grimtales.item;
 
-import com.grimmtales.GrimmTales;
+import com.grimtales.GrimTales;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,11 +19,11 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(GrimmTales.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(GrimTales.MOD_ID, name), item);
 
     }
     public static void registerModItems(){
-        GrimmTales.LOGGER.info("Registering Mod Items for " + GrimmTales.MOD_ID);
+        GrimTales.LOGGER.info("Registering Mod Items for " + GrimTales.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngridientTabItemGroup);
     }

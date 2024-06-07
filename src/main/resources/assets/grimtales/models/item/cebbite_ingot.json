@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "grimmtales:item/cebbite_ingot"
+    "layer0": "grimtales:item/cebbite_ingot"
   }
 }

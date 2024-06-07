@@ -1,8 +1,8 @@
-package com.grimmtales;
+package com.grimtales;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class GrimmTalesClient implements ClientModInitializer {
+public class GrimTalesClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

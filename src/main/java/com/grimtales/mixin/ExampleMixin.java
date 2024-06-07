@@ -1,4 +1,4 @@
-package com.grimmtales.mixin;
+package com.grimtales.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

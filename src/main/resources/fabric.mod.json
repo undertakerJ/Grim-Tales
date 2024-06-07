@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "grimm-tales",
+	"id": "grim-tales",
 	"version": "${version}",
-	"name": "Grimm Tales",
+	"name": "Grim Tales",
 	"description": "Survive.",
 	"authors": [
 		"undertaker_j, DaNcIKKK"
@@ -15,17 +15,17 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.grimmtales.GrimmTales"
+			"com.grimtales.GrimTales"
 		],
 			"client": [
-			"com.grimmtales.GrimmTalesClient"
+				"com.grimtales.GrimTalesClient"
 		],
 		"fabric-datagen": [
-			"com.grimmtales.GrimmTalesDataGenerator"
+			"com.grimtales.GrimTalesDataGenerator"
 		]
 	},
 	"mixins": [
-		"grimm-tales.mixins.json"
+		"grim-tales.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

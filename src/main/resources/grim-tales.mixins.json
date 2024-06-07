@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.grimmtales.mixin",
+	"package": "com.grimtales.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"
