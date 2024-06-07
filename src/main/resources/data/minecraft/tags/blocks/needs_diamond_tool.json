@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "grimtales:cabbite_ore",
+    "grimtales:deepslate_cabbite_ore",
+    "grimtales:sculk_cabbite_ore"
+  ]
+}
