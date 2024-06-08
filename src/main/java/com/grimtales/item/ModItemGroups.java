@@ -18,6 +18,7 @@ public class ModItemGroups {
                         //ITEMS
                         entries.add(ModItems.RAW_CEBBITE_ORE);
                         entries.add(ModItems.CEBBITE_INGOT);
+                        entries.add(ModItems.CEBBITE_PICKAXE);
                         //BLOCKS
                         entries.add(ModBlocks.CEBBITE_BLOCK);
                         entries.add(ModBlocks.CEBBITE_ORE);

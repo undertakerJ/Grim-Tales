@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "grimtales:cabbite_ore",
-    "grimtales:deepslate_cabbite_ore",
-    "grimtales:sculk_cabbite_ore",
-    "grimtales:cabbite_block"
+    "grimtales:cebbite_ore",
+    "grimtales:deepslate_cebbite_ore",
+    "grimtales:sculk_cebbite_ore",
+    "grimtales:cebbite_block"
   ]
 }
