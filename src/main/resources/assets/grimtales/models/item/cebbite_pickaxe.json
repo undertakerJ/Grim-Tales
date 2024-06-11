@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "grimtales:item/cebbite_pickaxe"
   }
