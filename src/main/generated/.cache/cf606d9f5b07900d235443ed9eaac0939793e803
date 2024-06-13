@@ -1,0 +1,7 @@
+// 1.20.1	2024-06-13T03:08:36.658602	Grim Tales/Tags for minecraft:block
+f94b277974dccc63f13190c20a1cb0bf3f1626b9 data\fabric\tags\blocks\needs_tool_level_4.json
+c10f5cceb38023a94850a2015176070497f200be data\grimtales\tags\blocks\cebbite_pickaxe_highlight_blocks.json
+0398562e29c408b9bbd4b816d7df6f750c75a6c7 data\minecraft\tags\blocks\mineable\pickaxe.json
+2ee0e83670a26e2b2cc61a7714b9b663474798c9 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json

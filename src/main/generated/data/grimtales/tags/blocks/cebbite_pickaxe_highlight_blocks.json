@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "grimtales:cebbite_ore",
+    "grimtales:deepslate_cebbite_ore",
+    "grimtales:sculk_cebbite_ore",
+    "#minecraft:gold_ores",
+    "#minecraft:coal_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:iron_ores"
+  ]
+}

@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "grim-tales",
+	"id": "grimtales",
 	"version": "${version}",
 	"name": "Grim Tales",
 	"description": "Survive.",
@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://t.me/memedealer_jPRIME",
-		"sources": "https://github.com/undertakerJ/Grimm-Tales"
+		"sources": "https://github.com/undertakerJ/Grim-Tales"
 	},
 	"license": "MIT",
 	"environment": "*",

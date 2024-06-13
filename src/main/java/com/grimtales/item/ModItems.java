@@ -15,7 +15,7 @@ public class ModItems {
     public static final Item CEBBITE_INGOT = registerItem("cebbite_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_CEBBITE_ORE = registerItem("raw_cebbite_ore", new Item(new FabricItemSettings()));
 
-    public static final Item CEBBITE_PICKAXE = registerItem("cebbite_pickaxe", new CebbitePickaxeItem(ToolMaterials.NETHERITE, 3, 1, new Item.Settings()));
+    public static final Item CEBBITE_PICKAXE = registerItem("cebbite_pickaxe", new CebbitePickaxeItem(ToolMaterials.NETHERITE, 3, 1, new Item.Settings().maxDamage(-1)));
 
 
 
